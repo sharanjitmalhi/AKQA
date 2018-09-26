@@ -60,7 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NumberToWordConverter.Repository\NumericToWord.Repository.csproj">
+    <ProjectReference Include="..\NumericToWordConverter.Repository\NumericToWord.Repository.csproj">
       <Project>{7888A093-4DEF-4FBF-9C32-899735C3DFC3}</Project>
       <Name>NumericToWord.Repository</Name>
     </ProjectReference>

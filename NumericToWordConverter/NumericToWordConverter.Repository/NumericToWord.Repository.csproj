@@ -45,7 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NumberToWordConverter.Entities\NumericToWord.Entities.csproj">
+    <ProjectReference Include="..\NumericToWordConverter.Entities\NumericToWord.Entities.csproj">
       <Project>{0730032A-3B8E-454C-8CD1-CC6EFDFA81AF}</Project>
       <Name>NumericToWord.Entities</Name>
     </ProjectReference>

@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWordConverter", "NumberToWordConverter\NumericToWordConverter.csproj", "{44EC6D12-F8AD-4197-A12D-ABAEC155E42F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWordConverter", "NumericToWordConverter\NumericToWordConverter.csproj", "{44EC6D12-F8AD-4197-A12D-ABAEC155E42F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Repository", "NumberToWordConverter.Repository\NumericToWord.Repository.csproj", "{7888A093-4DEF-4FBF-9C32-899735C3DFC3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Repository", "NumericToWordConverter.Repository\NumericToWord.Repository.csproj", "{7888A093-4DEF-4FBF-9C32-899735C3DFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Entities", "NumberToWordConverter.Entities\NumericToWord.Entities.csproj", "{0730032A-3B8E-454C-8CD1-CC6EFDFA81AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Entities", "NumericToWordConverter.Entities\NumericToWord.Entities.csproj", "{0730032A-3B8E-454C-8CD1-CC6EFDFA81AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Framework", "NumberToWordConverter.Framework\NumericToWord.Framework.csproj", "{7375FC6C-DFE4-4B2C-B884-5DC29DC81DB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Framework", "NumericToWordConverter.Framework\NumericToWord.Framework.csproj", "{7375FC6C-DFE4-4B2C-B884-5DC29DC81DB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Repository.Tests", "NumberToWordConverter.Repository.Tests\NumericToWord.Repository.Tests.csproj", "{CF6381E5-74BC-45E4-A2A5-80A9888E4327}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericToWord.Repository.Tests", "NumericToWordConverter.Repository.Tests\NumericToWord.Repository.Tests.csproj", "{CF6381E5-74BC-45E4-A2A5-80A9888E4327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

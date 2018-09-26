@@ -49,6 +49,10 @@
       <Project>{0730032A-3B8E-454C-8CD1-CC6EFDFA81AF}</Project>
       <Name>NumericToWord.Entities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NumericToWordConverter.Framework\NumericToWord.Framework.csproj">
+      <Project>{7375FC6C-DFE4-4B2C-B884-5DC29DC81DB4}</Project>
+      <Name>NumericToWord.Framework</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

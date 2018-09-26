@@ -1,4 +1,5 @@
 ﻿using NumericToWord.Entities;
+using NumericToWord.Framework.Interface;
 using NumericToWord.Repository.Contracts;
 using System;
 using System.Linq;
@@ -7,6 +8,14 @@ namespace NumericToWord.Repository
 {
     public class ConverterRepository : IConverterRepository
     {
+       
+        readonly ILogger _logger;
+
+        public ConverterRepository(ILogger logger)
+        {
+            _logger = logger;
+          
+        }
 
         public OutputModel ConvertToWord (InputModel input)
         {
@@ -19,7 +28,7 @@ namespace NumericToWord.Repository
 
         public string ConvertNumberToWord(string number)
         {
-           // _logger.WriteDebug("TranslationService - Convert: Method Started");
+          
             string isNegative = string.Empty;
             try
             {
@@ -39,7 +48,7 @@ namespace NumericToWord.Repository
             }
             catch (Exception ex)
             {
-               // _logger.WriteError("TranslationService - Convert: Method Failed. Error Details: " + ex.Message, ex);
+               _logger.WriteError("ConverterRepository - ConvertNumberToWord: Method Failed. Error Details: " + ex.Message, ex);
                 return ex.Message;
             }
         }
